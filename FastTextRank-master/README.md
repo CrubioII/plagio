@@ -1,3 +1,22 @@
+# FastTextRank
+
+Ahora soporta español con NLTK: ver `FastTextRank/FastTextRankSpanish.py`.
+
+## Español
+
+Para resumen y extracción de palabras clave en español, usa:
+
+```python
+from FastTextRank.FastTextRankSpanish import FastTextRankSpanish, FastTextRankSpanishKeywords
+
+texto = "La inteligencia artificial es una tecnología revolucionaria..."
+extractor = FastTextRankSpanish()
+resumen = extractor.summarize(texto, 3)
+
+extractor_kw = FastTextRankSpanishKeywords()
+palabras_clave = extractor_kw.extract_keywords(texto, 5)
+```
+
 # 快速文本摘要及关键词提取
 从中文文本中提取摘要及关键词，并对算法时间复杂度进行了修改，计算图最大权节点的时间复杂度由o（n^2）降低到了o（n）。在有限的测试文本上（10篇文章），其运行速度相比于textrank4zh这个包快了8倍。[算法原理见知乎文章](https://zhuanlan.zhihu.com/p/41241390)
 ## 安装

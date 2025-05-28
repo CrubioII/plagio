@@ -1,0 +1,25 @@
+Collecting gensim
+  Downloading gensim-4.3.3-cp39-cp39-win_amd64.whl.metadata (8.2 kB)
+Collecting numpy<2.0,>=1.18.5 (from gensim)
+  Downloading numpy-1.26.4-cp39-cp39-win_amd64.whl.metadata (61 kB)
+Collecting scipy<1.14.0,>=1.7.0 (from gensim)
+  Downloading scipy-1.13.1-cp39-cp39-win_amd64.whl.metadata (60 kB)
+Collecting smart-open>=1.8.1 (from gensim)
+  Downloading smart_open-7.1.0-py3-none-any.whl.metadata (24 kB)
+Collecting wrapt (from smart-open>=1.8.1->gensim)
+  Downloading wrapt-1.17.2-cp39-cp39-win_amd64.whl.metadata (6.5 kB)
+Downloading gensim-4.3.3-cp39-cp39-win_amd64.whl (24.0 MB)
+   ---------------------------------------- 24.0/24.0 MB 7.1 MB/s eta 0:00:00
+Downloading numpy-1.26.4-cp39-cp39-win_amd64.whl (15.8 MB)
+   ---------------------------------------- 15.8/15.8 MB 10.7 MB/s eta 0:00:00
+Downloading scipy-1.13.1-cp39-cp39-win_amd64.whl (46.2 MB)
+   ---------------------------------------- 46.2/46.2 MB 10.8 MB/s eta 0:00:00
+Downloading smart_open-7.1.0-py3-none-any.whl (61 kB)
+Downloading wrapt-1.17.2-cp39-cp39-win_amd64.whl (38 kB)
+Installing collected packages: wrapt, numpy, smart-open, scipy, gensim
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.0.2
+    Uninstalling numpy-2.0.2:
+      Successfully uninstalled numpy-2.0.2
+
+Successfully installed gensim-4.3.3 numpy-1.26.4 scipy-1.13.1 smart-open-7.1.0 wrapt-1.17.2

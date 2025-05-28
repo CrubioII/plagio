@@ -1,6 +1,11 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 from FastTextRank.FastTextRank4Word import FastTextRank4Word
 import codecs
 import datetime
+# ...existing code...
 mod = FastTextRank4Word(tol=0.0001,window=2)
 # with open("text1.txt", "r", encoding='utf-8') as myfile:
 old_time = datetime.datetime.now()
