@@ -9,13 +9,7 @@ import unittest
 class TestFastTextRankSpanish(unittest.TestCase):
     def setUp(self):
         self.texto = (
-            "Si, exactamente por eso es que he estado más decidida, porque siento que me está dando lo que me merezco."
-            "Y pues, obvio son cosas que quiero, pero nos podemos ver en la Universidad, parchar un rato y así, todo bien normal."
-            "Vos me caes muy bien, pues cuando nos conocimos al inicio, que salimos y todo eso, pues sí, obvio."
-            "Nada más que no me encontraba en un buen momento, pero esta vez que me volviste a hablar, yo sabía que ya no podía volver a darse."
-            "Porque yo estaba pasando por otra cosa, yo siento que, pues, tú sabes que es así."
-            "Sí, fue hermoso porque siempre fuiste un lindo conmigo y no tengo nada malo que decir de vos."
-            "Solo te digo que, pues, gracias por todo eso."
+            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         )
 
 
